@@ -30,7 +30,7 @@ Before running this script, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/canugod/port-scanner.git
-   cd port-scanner
+   cd AdvancedPortScanner
    ```
 
 2. Install dependencies:
@@ -44,7 +44,7 @@ Before running this script, ensure you have the following installed:
 
 Run the script by executing the following command:
 ```bash
-python port_scanner.py
+python3 port_scanner.py
 ```
 
 ### Command-Line Arguments:
@@ -54,7 +54,7 @@ python port_scanner.py
 
 Example:
 ```bash
-python port_scanner.py --host 192.168.1.1 --ports 1-500 --output results.txt
+python3 port_scanner.py --host 192.168.1.1 --ports 1-500 --output results.txt
 ```
 
 ---
@@ -69,7 +69,7 @@ python port_scanner.py --host 192.168.1.1 --ports 1-500 --output results.txt
 
 ## File Structure
 ```
-port-scanner/
+AdvancedPortScanner/
 ├── port_scanner.py         # Main script
 ├── requirements.txt        # Python dependencies
 ├── scan_results.txt        # Default output file
